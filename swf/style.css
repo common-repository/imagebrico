@@ -1,0 +1,52 @@
+/* CSS file */
+
+		@namespace s "library://ns.adobe.com/flex/spark";
+		@namespace mx "library://ns.adobe.com/flex/mx";
+		@namespace components "components.*";
+		@namespace enhancedtitlewindow "com.ninem.components.enhancedtitlewindow.*";
+		@namespace toolBars "components.toolBars.*";
+		@namespace enhancedTitleWindow "components.enhancedTitleWindow.*";
+		enhancedTitleWindow|EnhancedTitleWindow{
+			skin-class:ClassReference("skins.EnhancedTitleWindowSkin");
+			show-expand-indicator:true;
+		}
+		components|HSliderInput{
+			skinClass:ClassReference("skins.HSliderInputSkin");
+		}
+		
+		toolBars|CKEnhancedTitleWindow{
+			skinClass:ClassReference("skins.CKEnhancedTitleWindowSkin");
+			cornerRadius:3;
+			titleBarHeight:30;
+			borderColor:666666;
+				}
+		s|TextInput{
+			skinClass:ClassReference("skins.CKTextInputSkin");
+		}
+
+@font-face { 
+	src: url("fonts/AVENIR 45 BOOK OBLIQUE.TTF"); 
+	fontFamily: AVENIR obliqueMIO; 
+	fontStyle: oblique ; 
+	embedAsCFF:true ; 
+	advancedAntiAliasing: true; 
+}
+@font-face { 
+	src: url("fonts/AVENIR 45 BOOK.TTF"); 
+	fontFamily: AVENIRMIO; 
+	embedAsCFF:true ; 
+	advancedAntiAliasing: true; 
+}
+@font-face { 
+	src: url("fonts/IMPACT.TTF"); 
+	fontFamily: IMPACTMIO; 
+	embedAsCFF:true ; 
+	advancedAntiAliasing: true; 
+}
+@font-face { 
+	src: url("fonts/BLISSFULTHINKING.OTF"); 
+	fontFamily: BLISSFULTHINKING; 
+	embedAsCFF:true ; 
+	advancedAntiAliasing: true; 
+}
+
